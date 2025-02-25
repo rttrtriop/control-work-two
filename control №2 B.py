@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-data = "C:/Users/Unicum_Student/pythonProject7/dataset.xlsx"
+data = "путь к датасету"
 df = pd.read_excel(data)
 print(df.head())
 plt.figure(figsize=(8, 6))
